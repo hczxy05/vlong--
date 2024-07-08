@@ -1,0 +1,16 @@
+@media screen and (max-width:1000px) and (min-width:801px){
+    #exl #number{
+        width: 800px;
+    }
+    #number caption{
+        font-size: 27px;
+    }
+    #exl #number tr td{
+        font-size: 75px;
+        width: 25%;
+        padding: 40px 0;
+    }
+    .remark{
+        font-size: 10px;
+    }
+}

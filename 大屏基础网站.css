@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EEF1F4;
+    overflow-x: hidden;
+}
+.pink-text{
+    color: rgb(255, 75, 105);
+}
+.block{
+    height: 130vh;
+    width: 100%;
+}
+#exl{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+#exl #number{
+    position: absolute;
+    width: 1000px;
+    table-layout: fixed;
+}
+#number caption{
+    font-size: 37px;
+}
+#exl #number tr{
+    display: flex;
+    flex-wrap: wrap;
+}
+#exl #number tr td{
+    font-size: 100px;
+    text-align: center !important;
+    width: 25%;
+    padding: 45px 0;
+}
+.remark{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
